@@ -1,0 +1,15 @@
+# Conda environment for the single-cell analysis.
+# Create with:  conda env create -f environment.yml   (or use mamba)
+# Activate:     conda activate scrna
+name: scrna
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - scanpy
+  - leidenalg          # Leiden clustering backend
+  - python-igraph      # graph library used by Leiden / neighbors
+  - matplotlib
+  - jupyterlab         # to open the notebook
+  - jupytext           # converts the .py (with # %% cells) into a .ipynb
+  - pip

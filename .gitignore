@@ -1,0 +1,11 @@
+# Python envs
+.venv/
+__pycache__/
+
+# scanpy cache + processed data
+data/
+*.h5ad
+
+# Keep figures/ committed (they're the portfolio output), but ignore the OS cruft
+.DS_Store
+.ipynb_checkpoints/
