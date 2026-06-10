@@ -56,7 +56,7 @@ jupyter lab notebooks/pbmc3k_analysis.ipynb
 | FCGR3A | CD16+ (FCGR3A) monocytes |
 | PPBP | Megakaryocytes / platelets |
 
-## Notes / talking points
+## Notes
 
 - Leiden cluster numbers are not fixed across runs; the cluster-to-cell-type
   mapping in the script must be checked against the marker-gene plots and
